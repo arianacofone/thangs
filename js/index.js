@@ -34,7 +34,7 @@ function getRequest() {
           .appendTo(div);
 
         var pointLabel = $('<label/>')
-        pointLabel.text(`Brownie Points:${points}`)
+        pointLabel.text(`Points:${points}`)
           .appendTo(div);
 
 
@@ -94,7 +94,7 @@ $("#form").submit(function(event){
       .appendTo(div);
 
     var pointLabel = $('<label/>')
-    pointLabel.text(`Brownie Points:${points}`)
+    pointLabel.text(`Points:${points}`)
       .appendTo(div);
 
 
@@ -138,7 +138,7 @@ $("#person1").click(function() {
             .appendTo(div);
 
           var pointLabel = $('<label/>')
-          pointLabel.text(`Brownie Points:${points}`)
+          pointLabel.text(`Points:${points}`)
             .appendTo(div);
         } else {
           console.log('no dice');
@@ -175,7 +175,7 @@ $("#person2").click(function() {
             .appendTo(div);
 
           var pointLabel = $('<label/>')
-          pointLabel.text(`Brownie Points:${points}`)
+          pointLabel.text(`Points:${points}`)
             .appendTo(div);
         } else {
           console.log('no dice');
