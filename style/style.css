@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  background-color: blue;
+  display: flex;
+
+}
+
+nav div img {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#form {
+  background-color: black;
+  width: 40%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#form input {
+  width: 30%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form#list div {
+  width: 30%;
+  margin: 1% auto;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form#list div span {
+  margin-left: 5px;
+}

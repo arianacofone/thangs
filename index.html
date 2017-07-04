@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>thangs</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+
+    <!-- Navigation Bar Elements -->
+    <nav>
+      <div>
+        <img id="person1" src="./style/images/person.png">
+      </div>
+      <div>
+        <img id="melon" src="./style/images/melon.png">
+      </div>
+      <div>
+        <img id="person2" src="./style/images/person.png">
+      </div>
+    </nav>
+
+    <!-- Form Post -->
+    <form id="form" method="post">
+      <input type="text" id="task" placeholder="add to do list" required>
+      <input type="number" id="points" placeholder="brownie points" required>
+      <select id="teamMember" required>
+        <option value="ariana">Ariana</option>
+        <option value="joey">Joey</option>
+        <option value="home">Home</option>
+      </select>
+      <input id="button" type="submit" value="Submit">
+    </form>
+
+    <!-- Where To Do list Items will be -->
+    <form id="list">
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+  </body>
+</html>
